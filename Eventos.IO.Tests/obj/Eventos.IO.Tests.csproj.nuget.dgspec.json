@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\demos\\ddd\\Eventos.IO.Tests\\Eventos.IO.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "projectName": "Eventos.IO.Domain.Core",
+        "projectPath": "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\david.sousa\\.nuget\\packages\\",
+        "outputPath": "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\david.sousa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\demos\\ddd\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demos\\ddd\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "projectName": "Eventos.IO.Domain",
+        "projectPath": "C:\\demos\\ddd\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "packagesPath": "C:\\Users\\david.sousa\\.nuget\\packages\\",
+        "outputPath": "C:\\demos\\ddd\\Eventos.IO.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\david.sousa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\demos\\ddd\\Eventos.IO.Tests\\Eventos.IO.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\demos\\ddd\\Eventos.IO.Tests\\Eventos.IO.Tests.csproj",
+        "projectName": "Eventos.IO.Tests",
+        "projectPath": "C:\\demos\\ddd\\Eventos.IO.Tests\\Eventos.IO.Tests.csproj",
+        "packagesPath": "C:\\Users\\david.sousa\\.nuget\\packages\\",
+        "outputPath": "C:\\demos\\ddd\\Eventos.IO.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\david.sousa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\demos\\ddd\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              },
+              "C:\\demos\\ddd\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\demos\\ddd\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
