@@ -1,0 +1,9 @@
+C:\demos\ddd\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.deps.json
+C:\demos\ddd\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\demos\ddd\Eventos.IO.Domain.Core\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.csprojAssemblyReference.cache
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.csproj.CoreCompileInputs.cache
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.AssemblyInfoInputs.cache
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.AssemblyInfo.cs
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\demos\ddd\Eventos.IO.Domain.Core\obj\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
